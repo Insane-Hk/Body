@@ -1,0 +1,71 @@
+body {
+    margin: 0;
+    height: 100%;
+    width: 100%;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.body {
+    opacity: 0.8;
+}
+
+.infobulle {
+    position: relative;
+
+    left: 50%;
+
+    width: 48px;
+    height: 48px;
+
+    border-radius: 50%;
+
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.infobulle:hover {
+    background-color: rgba(146, 146, 146, 0.8);
+}
+
+.infobulle.Epaule {
+    top: -415px;
+
+    margin: 0 0 0 -75px;
+}
+
+.infobulle.Main {
+    top: -315px;
+
+    margin: 0 0 0 -80px;
+}
+
+.infobulle.Coude {
+    top: -415px;
+
+    margin: 0 0 0 35px;
+}
+
+.infobulle.Hanche {
+    top: -400px;
+
+    margin: 0 0 0 10px;
+}
+
+.infobulle.Genou {
+    top: -350px;
+
+    margin: 0 0 0 -50px;
+}
+
+.infobulle.Pied {
+    top: -300px;
+
+    margin: 0 0 0 -5px;
+}
+
+.informations {
+    position: relative;
+    top: -200px;
+}
